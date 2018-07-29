@@ -1,0 +1,28 @@
+PODS:
+  - AgoraRtcEngine_iOS (2.1.1)
+  - CryptoCurrencyKit (0.3.1)
+  - JGProgressHUD (2.0.1)
+  - NWPusher (0.7.5)
+
+DEPENDENCIES:
+  - AgoraRtcEngine_iOS
+  - CryptoCurrencyKit
+  - JGProgressHUD
+  - NWPusher (~> 0.7.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AgoraRtcEngine_iOS
+    - CryptoCurrencyKit
+    - JGProgressHUD
+    - NWPusher
+
+SPEC CHECKSUMS:
+  AgoraRtcEngine_iOS: 92bf85f262f43dec20809fe7d8a35e8f7f02d255
+  CryptoCurrencyKit: 5c78da2dfb845e2feddb519b56169ab39f117ca1
+  JGProgressHUD: 63ad7d8850702a91625fb9ed8e94eab706c03d81
+  NWPusher: 9b29a44754d88cb02c28a1e9bc8750845506123e
+
+PODFILE CHECKSUM: 885f5c0f5bd8250259d30a2ce96993ff2738bd75
+
+COCOAPODS: 1.5.3

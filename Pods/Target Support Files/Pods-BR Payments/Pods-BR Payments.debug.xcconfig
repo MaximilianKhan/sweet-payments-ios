@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CryptoCurrencyKit" "${PODS_CONFIGURATION_BUILD_DIR}/JGProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/NWPusher" "${PODS_ROOT}/AgoraRtcEngine_iOS"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/CryptoCurrencyKit/CryptoCurrencyKit.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/JGProgressHUD/JGProgressHUD.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/NWPusher/NWPusher.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"resolv" -framework "AVFoundation" -framework "AgoraRtcEngineKit" -framework "AudioToolbox" -framework "CoreMedia" -framework "CoreTelephony" -framework "CryptoCurrencyKit" -framework "JGProgressHUD" -framework "NWPusher" -framework "SystemConfiguration" -framework "VideoToolbox"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
